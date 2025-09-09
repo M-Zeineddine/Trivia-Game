@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "jsx": "react-native",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
@@ -10,11 +12,22 @@
     "strict": false,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@screens/*": ["src/screens/*"],
-      "@lib/*": ["src/lib/*"],
-      "@state/*": ["src/state/*"],
-      "@types/*": ["src/types/*"]
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@state/*": [
+        "src/state/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ]
     }
-  }
+  },
+  "extends": "expo/tsconfig.base"
 }
