@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Trivia Game",
+    "slug": "trivia-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./app/App.tsx",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {"supportsTablet": true},
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {"bundler": "metro"}
+  }
+}
